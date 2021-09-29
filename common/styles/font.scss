@@ -1,0 +1,14 @@
+// 百度小程序必须添加https:开头
+@font-face {
+  font-family: 'iconfont';  /* Project id 1973738 */
+  src: url('https://at.alicdn.com/t/font_1973738_s18n0jb3hb.woff2?t=1621326351018') format('woff2'),
+  url('https://at.alicdn.com/t/font_1973738_s18n0jb3hb.woff?t=1621326351018') format('woff'),
+  url('https://at.alicdn.com/t/font_1973738_s18n0jb3hb.ttf?t=1621326351018') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16upx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
