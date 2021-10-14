@@ -1,15 +1,11 @@
 # uniapp-template
 
-### 介绍
-foundation template
+### Project setup
+```
+npm install
+```
 
-### 安装教程
-
-1.  git clone
-2.  cd uniapp-template
-3.  npm install
-
-### 项目结构
+### Project structure
 
 ``` bash
 ├── api                                     // 存放项目api
@@ -36,5 +32,9 @@ foundation template
 ├── README.md                               // 项目介绍文件
 └── uni.scss                                // uni-app内置的常用样式变量
 ```
+
+### Recommended IDE Setup
+
+- [HBuilder X](https://www.dcloud.io/hbuilderx.html)
 
 ### End
