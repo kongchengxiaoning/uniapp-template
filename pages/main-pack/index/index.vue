@@ -1,6 +1,6 @@
 <template>
   <view class="warp">
-    <nav-bar :isBack="false" :title="pageTitle" bg="#FFFFFF" title-color="#000000" back-color="#000000"></nav-bar>
+    <nav-bar :is-back="false" :title="pageTitle" bg="#FFFFFF" title-color="#000000" back-color="#000000"></nav-bar>
     <image class="logo" :src="platformImg('/images/logo')"></image>
     <view class="text-area">
       <text class="title">{{ pageTitle }}</text>
@@ -12,7 +12,7 @@
 <script>
 import NavBar from '@/components/NavBar/index.vue'
 import { platformImg } from '@/common/scripts/tools'
-  
+
 export default {
   components: {
     NavBar
