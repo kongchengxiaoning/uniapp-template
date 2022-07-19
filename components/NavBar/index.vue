@@ -86,15 +86,15 @@ export default {
   .header-title {
     position: absolute;
     left: 50%;
-    font-size: 34upx;
+    font-size: 34rpx;
     font-weight: bold;
     transform: translateX(-50%);
   }
   .header-back {
     position: absolute;
-    left: 24upx;
+    left: 24rpx;
     .iconfont {
-      font-size: 56upx;
+      font-size: 56rpx;
     }
   }
 }

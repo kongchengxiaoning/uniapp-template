@@ -30,9 +30,9 @@ export default {
 
 <style lang="scss" scoped>
 .rich-text {
-  padding: 24upx;
+  padding: 24rpx;
   .text {
-    font-size: 26upx;
+    font-size: 26rpx;
     color: #333333;
   }
 }

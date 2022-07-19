@@ -314,8 +314,8 @@ export default {
   }
   &.s-popup-effect {
     .s-popup-wrapper {
-			border-top-left-radius: 20upx;
-			border-top-right-radius: 20upx;
+			border-top-left-radius: 20rpx;
+			border-top-right-radius: 20rpx;
       transform: translateY(0);
     }
   }
