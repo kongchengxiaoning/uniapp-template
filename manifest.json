@@ -11,8 +11,8 @@
     },
     /* 网络超时时间 单位毫秒 */
     "networkTimeout" : {
-        "request" : 10000, // uni.request 的超时时间
-        "connectSocket" : 10000, // uni.connectSocket 的超时时间
+        "request" : 12000, // uni.request 的超时时间
+        "connectSocket" : 12000, // uni.connectSocket 的超时时间
         "uploadFile" : 3600000, // uni.uploadFile 的超时时间，单位毫秒
         "downloadFile" : 3600000 // uni.downloadFile 的超时时间，单位毫秒
     },
@@ -69,6 +69,7 @@
             "es6" : true
         },
         "usingComponents" : true,
+        "lazyCodeLoading" : "requiredComponents",
         "permission" : {
             "scope.userLocation" : {
                 "desc" : "获取您的地址判断该区域是否有货"

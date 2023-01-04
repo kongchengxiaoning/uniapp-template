@@ -26,7 +26,7 @@ const appiInfo = {
   SERVER_PATH, // 请求接口地址
   IMG_ERROR: '/images/error/error', // 加载失败默认图片
   PAGESIZE: 10, // 分页 每次加载的数据量
-  TIMEOUT: 120000 // 接口超时时间 毫秒
+  TIMEOUT: 60000 // 接口超时时间 毫秒
 }
 
 export default {

@@ -29,6 +29,7 @@ export default class Request {
         data: data,
         method: method,
         header: header,
+        timeout: consts.TIMEOUT,
         success: (res) => {
           if ([404, 500].includes(res.statusCode)) {
             uni.showToast({
