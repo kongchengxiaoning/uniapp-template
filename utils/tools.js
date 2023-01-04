@@ -1,4 +1,4 @@
-import consts from './consts'
+import consts from '@/common/scripts/consts'
 
 /**
  * @returns {String} 处理全局图片引入

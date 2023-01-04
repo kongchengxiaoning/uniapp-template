@@ -1,18 +1,17 @@
 <template>
-  <view class="header-box" :style="{ height: `${navBarConf.titleBarHeight + navBarConf.statusBarHeight}px` }">
-    <view class="header" :style="{ height: `${navBarConf.titleBarHeight}px`, 'padding-top': `${navBarConf.statusBarHeight}px`, 'background': bg }">
-      <view v-if="isBack && backType === 1" class="header-back extend-click" @click.stop="back">
-        <span class="iconfont" :style="{ color: backColor }">&#xe60b;</span>
-      </view>
-      <view v-if="isBack && backType === 2" class="header-back extend-click" @click.stop="openHome">
-        <span class="iconfont" :style="{ color: backColor }">&#xe60b;</span>
-      </view>
-      <view v-if="title" class="header-title" :style="{ color: titleColor }">
-        {{ title }}
-      </view>
+  <view class="header" :style="{ height: `${navBarConf.titleBarHeight}px`, 'padding-top': `${navBarConf.statusBarHeight}px`, 'background': bg }">
+    <view v-if="isBack && backType === 1" class="header-back extend-click" @click.stop="back">
+      <span class="iconfont" :style="{ color: backColor }">&#xe60b;</span>
+    </view>
+    <view v-if="isBack && backType === 2" class="header-back extend-click" @click.stop="openHome">
+      <span class="iconfont" :style="{ color: backColor }">&#xe60b;</span>
+    </view>
+    <view v-if="title" class="header-title" :style="{ color: titleColor }">
+      {{ title }}
     </view>
   </view>
 </template>
+
 <script>
 export default {
   name: 'NavBar',
@@ -83,6 +82,7 @@ export default {
 	left: 0;
 	width: 100%;
 	z-index: 100;
+
   .header-title {
     position: absolute;
     left: 50%;
@@ -90,6 +90,7 @@ export default {
     font-weight: bold;
     transform: translateX(-50%);
   }
+
   .header-back {
     position: absolute;
     left: 24rpx;

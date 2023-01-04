@@ -6,14 +6,13 @@
 
 <script>
 export default {
-  name: 'WebView',
   data() {
     return {
       url: ''
     }
   },
   onLoad(option) { // 页面初次加载
-    this.url = option.url
+    this.url = decodeURIComponent(option.url)
   }
 }
 </script>

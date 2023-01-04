@@ -15,12 +15,10 @@ export default {
 <style lang="scss">
 /*每个页面公共css */
 .warp {
+  min-width: 100vw;
   min-height: 100vh;
   overflow-y: scroll;
-  box-sizing: border-box;
   background-color: $page-bg-color;
-  padding-bottom: constant(safe-area-inset-bottom);
-  padding-bottom: env(safe-area-inset-bottom);
 }
 ::-webkit-scrollbar {
   display: none;

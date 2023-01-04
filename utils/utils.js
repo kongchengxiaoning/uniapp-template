@@ -40,7 +40,7 @@ export const openCustomLink = (item, flag) => {
   if (link.includes('http://') || link.includes('https://')) {
     // H5页面
     uni.navigateTo({
-      url: `/pages/sub-pack-a/web-view/index?url=${link}`
+      url: `/pages/sub-pack-a/web-view/index?url=${encodeURIComponent(link)}`
     })
   } else {
     // 页面类型及参数
