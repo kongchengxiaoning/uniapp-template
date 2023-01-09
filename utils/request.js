@@ -47,7 +47,7 @@ export default class Request {
               resolve(res.data)
               break
             case '9999':
-              store.commit('setUserInfo', null)
+              store.commit('user/setUserInfo', null)
               reject(res.data)
               break
             default:
